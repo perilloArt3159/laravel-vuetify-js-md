@@ -52,7 +52,7 @@ module.exports = {
   // generated html files location during production
   indexPath: process.env.NODE_ENV === 'production' ? '../resources/views/index.blade.php' : 'index.html',
   // vuetify
-  transpileDependencies: ['vuetify'],
+  transpileDependencies: ['vuetify']
 }
 ```
 
