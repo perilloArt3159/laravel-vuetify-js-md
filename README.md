@@ -21,17 +21,17 @@ DB_PASSWORD=<database password>
 Run the following commands:
 1. `composer install`
 2. `composer dump-autoload`
-3. `php artisan config:clear`
-4. `php artisan migrate`
-5. `php artisan serve`
+3. `php artisan key:generate`
+4. `php artisan config:clear`
+5. `php artisan migrate`
+6. `php artisan serve`
 
 ## Frontend Setup Instructions 
 
 Run the following commands:
 1.  `cd vuetify`  
 2.  `npm install` or `yarn`  
-3.  `npm run serve` or `yarn serve`
-4.  `npm run build` or `yarn build`
+3.  `npm run build` or `yarn build`
 
 **Reminder**: Always run `npm run build` or `yarn build` in `vuetify` folder everytime you make any changes in the frontend to recompile the js scripts.
 
