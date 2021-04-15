@@ -49,7 +49,7 @@ module.exports = {
   },
   // save static files in laravel public dir
   outputDir: '../public',
-  // generated html files location during production
+  // generated index view location
   indexPath: process.env.NODE_ENV === 'production' ? '../resources/views/index.blade.php' : 'index.html',
   // vuetify
   transpileDependencies: ['vuetify']
