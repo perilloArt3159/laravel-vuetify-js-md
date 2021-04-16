@@ -3,8 +3,8 @@
 → There is no API setup, this is a clean version of Laravel.  
 
 
-* Frontend - Vue + VuetifyJS  
-→ Material Dashboard Theme
+* Frontend - VuetifyJS  
+→ Material Dashboard 
 
 ## Backend Setup Instructions
 Make a copy of `.env` using the file `env.example` and then add your MySQL database credentials to establish a connection.
